@@ -27,7 +27,21 @@ Just some study notes about dotnet.
 
 
 
+- 数值运算
+- 符号运算
+- 机器推理（先从实现形式系统的基本规则检测开始）
 
+
+
+浮点数->浮点数运算->基本算术
+
+​     ->线性代数现有一个可以计算的类-> 并行或者cuda加速
+
+快速傅立叶变换
+
+多媒体
+
+计算机图形学
 
 浮点数，浮点数运算，浮点数数学库，system.math numeric，第三方库（mathnet，numsharp等）
 
@@ -53,7 +67,9 @@ mathnet还有符号计算功能
 
 逻辑推导（暂时没有找到合适的库）
 
+commandline （命令行解析）
 
+xml，json，csv，excel
 
 LINQ，
 
