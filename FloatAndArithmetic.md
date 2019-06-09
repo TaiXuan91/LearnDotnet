@@ -1,5 +1,7 @@
 # Float and Arithmetic
 
+主要涉及数值计算。二进制计算等。
+
 计算机使用二进制数
 
 dotnet:
