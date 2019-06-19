@@ -24,7 +24,7 @@ Just some study notes about dotnet.
 
 
 
-
+加入例程，注意改写一下.gitignore
 
 科学计算用F#讲
 
