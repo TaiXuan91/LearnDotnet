@@ -68,5 +68,25 @@
 
 ## 环境安装
 
-关于.NET在Windows，Linux以及macOS三个主要平台上的安装，Windows已经把教程写得很好了。我觉得我就不必复述了，直接按照<https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro>的教程安装就可以了。
+关于.NET在Windows，Linux以及macOS三个主要平台上的安装，Windows已经把教程写得很好了。我觉得我就不必复述了，直接按照<https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro>的教程安装就可以了。在这个教程里还介绍了如何创建一个项目，并运行它（也就是喜闻乐见的HelloWorld了）。
+
+默认的项目语言是C#，如果你想创建一个F#项目，使用这条命令：
+
+```shell
+dotnet new console --language=F#
+```
+
+如果你想把项目打包发布可以使用这条命令：
+
+```shell
+dotnet publish -o OutputDir
+```
+
+其中`-o OutputDir`表示把打包好的文件放到一个名为`OutputDir`的路径下。完成打包之后，`OutputDir`下会存在一个和你的项目同名，并且以`dll`为后缀的文件。通过`dotnet`命令来启动它，例如：
+
+```shell
+dotnet HelloFSharp.dll
+```
+
+`dotnet`命令实际上是整个.NET SDK的入口，创建项目，构建，调试，运行，发布基本上都是通过这个命令（以及它的子命令）完成的。更多关于`dotnet`的用法见官方文档：<https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x>。
 
