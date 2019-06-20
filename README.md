@@ -9,8 +9,32 @@ Just some study notes about dotnet.
 
 - [引言](Introduction.md)
 - [.NET](./Dotnet/README.md)
+
+
+
+- 命名空间
+- 类
+- 方法和字段
+- 实际上可以通过lambda 表达式和代理把所有方法都当作是字段，但是没有必要
+
+### 命令式编程
+
+- 主函数
+
+- 变量和赋值 （输出变量的写法）
+- 运算和函数调用（从+=开始讲，没有副作用的函数是没有意义的，+和有返回值的函数相当于用缓存传参）
+- 流程控制
+- 函数定义
+- 名称绑定和变量作用域（垃圾回收机制，值类型和引用类型）
+
+
+
+
+
 - [丘奇和图灵](./ChurchAndTuring/README.md)
 - [HelloWorld](./HelloWorld/README.md) 修改helloworld的一些常识其他代码段先不要管
+
+- 
 
 ### 命令式编程
 
@@ -23,7 +47,12 @@ Just some study notes about dotnet.
 - 
 - 
 - 
-- 
+
+
+
+注释
+
+异常处理
 
 - 引用类型和值类型
 - 装箱和拆箱

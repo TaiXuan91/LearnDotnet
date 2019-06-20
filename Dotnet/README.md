@@ -90,3 +90,32 @@ dotnet HelloFSharp.dll
 
 `dotnet`命令实际上是整个.NET SDK的入口，创建项目，构建，调试，运行，发布基本上都是通过这个命令（以及它的子命令）完成的。更多关于`dotnet`的用法见官方文档：<https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x>。
 
+## Hello World
+
+创建控制台项目后，直接运行会显示`Hello World!`。
+
+在初始化后的的项目文件夹中`bin`和`obj`文件夹中存储编译产物。后缀为`.csproj`的文件是项目配置文件。后缀为`.cs`的文件是C#源码文件。初始化的项目中应该只有`Program.cs`一个源码文件。
+
+举个例子，我创建的一个控制台程序初始化后`Program.cs`中的内容是这样的：
+
+```C#
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
+现在我们所要讨论的内容仅仅限于`static void Main(string[] args)`后边的那一对花括号里。
+
+`Console.WriteLine("Hello World!");`这一行代码的作用就是在程序运行时输出那句`Hello World!`。如果你想修改输出的内容就直接修改双引号内的内容。如果你想多输出几行就把这行代码多复制几遍。
+
+> 分号`;`代表一行代码的结束。而换行符更多只是让代码格式更清楚，并没有多少语法意义。因此复制一行代码时别把末尾的`;`漏掉。
+
