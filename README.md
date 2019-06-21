@@ -9,8 +9,28 @@ Just some study notes about dotnet.
 
 - [引言](Introduction.md)
 - [.NET](./Dotnet/README.md)
+- [命名空间](./Namespace/README.md)
+- 
+
+读书读到了 2 Core C#
+
+已经介绍完：
+
+- 
+
+已经讲过名称绑定，但是在垃圾回收部分要重新讲变量作用域
+
+讲类的时候要把涉及名称绑定的内容重新讲一遍
+
+预设读者有编程知识
+
+不是为了让初学者看懂
 
 
+
+
+
+变量声明，初始化和赋值，
 
 - 命名空间
 - 类
