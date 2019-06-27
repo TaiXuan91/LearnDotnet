@@ -22,6 +22,6 @@ namespace NamespaceDemo
 
     class A
     {
-        public static int x=20;
+        protected internal static int x=20;
     }
 }
