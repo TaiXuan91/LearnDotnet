@@ -11,7 +11,7 @@ namespace ClassMembersDemo
             // var x = A.i;
             var y = A.j;
             var z = A.k;
-            var ww = A.w;
+            // var ww = A.w;
             Console.WriteLine("Hello World!");
         }
 
